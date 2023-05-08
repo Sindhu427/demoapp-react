@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Login from "./Components/Login/Login.js";
+import { Grid } from "@mui/material";
+import Register from "./Components/Register/Register.js";
+import Dashboard from "./Components/Dashboard/Dashboard.js";
+import Certification from "./Components/certifcation/certification.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <div>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/Register" element={<Register />} />
+            <Route path="/Dashboard" element={<Dashboard />} />
+            <Route path="/certification" element={<Certification />} />
+          </Routes>
+        </BrowserRouter>
+        {/* <Grid
+          xs={12}
+          style={{
+            textAlign: "center",
+            backgroundColor: "lightblue",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <h1 style={{}}>Login Page</h1>
+        </Grid>
+        <Register /> */}
+      </div>
+    </>
   );
 }
-
 export default App;
