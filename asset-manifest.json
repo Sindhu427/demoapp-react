@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/demoapp-react/static/css/main.06835869.css",
+    "main.js": "/demoapp-react/static/js/main.9db9947f.js",
+    "static/js/787.a3103ff7.chunk.js": "/demoapp-react/static/js/787.a3103ff7.chunk.js",
+    "static/media/hobi.svg": "/demoapp-react/static/media/hobi.e85fbb901e979fdc0018598621d7b129.svg",
+    "static/media/logo.svg": "/demoapp-react/static/media/logo.3d684aa1f73624205dae2fae3be04559.svg",
+    "static/media/kpr.svg": "/demoapp-react/static/media/kpr.7c686d04766f4615e5ac86e951b70032.svg",
+    "static/media/me.svg": "/demoapp-react/static/media/me.fed08e96cfe22af8d30f1740546ffd3e.svg",
+    "static/media/certi.jpg": "/demoapp-react/static/media/certi.402a3a163eec4eae8d7d.jpg",
+    "static/media/certilogo.svg": "/demoapp-react/static/media/certilogo.db9c82c709e048ba5e1533efda30f8c7.svg",
+    "static/media/login.jfif": "/demoapp-react/static/media/login.b399f8cf5f8b783320f2.jfif",
+    "index.html": "/demoapp-react/index.html",
+    "main.06835869.css.map": "/demoapp-react/static/css/main.06835869.css.map",
+    "main.9db9947f.js.map": "/demoapp-react/static/js/main.9db9947f.js.map",
+    "787.a3103ff7.chunk.js.map": "/demoapp-react/static/js/787.a3103ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06835869.css",
+    "static/js/main.9db9947f.js"
+  ]
+}
